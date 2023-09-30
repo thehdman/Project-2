@@ -1,0 +1,144 @@
+a{
+    text-decoration: none;
+}
+
+section{
+    padding: 30px 0px;
+}
+
+.cards-title{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cards-title ::after{
+    background: #f08080;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+.header{
+    background-color: #f08080;
+    color: white;
+}
+.header-heading{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+.header-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-menu-list{
+    display: inline-block;
+}
+
+.header-menu-links{
+    display: block;
+    color: white;
+    padding: 15px 10px;
+}
+.header-menu-links:hover{
+    display: block;
+    background-color: rgba(240, 128, 128, 0.8);
+}
+
+.banner{
+    background: url(../images/img-1.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.banner-info{
+    padding-top: 3rem;
+}
+.banner-title{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-info p.lead{
+    color: white;
+    background-color: rgba(240, 128, 128);
+}
+
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    font-size: 70px;
+    color: #f08080;
+    padding-bottom: 10px;
+}
+.testimonial{
+    position: relative;
+    background: url(../images/img-2.jpg) no-repeat 0 0;
+    color: white;
+    background-size: cover;
+   }
+   .testimonial img{
+    border-radius: 50%;
+   }
+
+   .news-post img{
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .news-post h3{
+    font-size: 1.35rem;
+  }
+  .news-post a{
+    color: #f08080;
+  }
+  .post-date{
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+  }
+  .top-footer{
+    background-color: #34495e;
+    color: white;
+    padding: 30px 0;
+ }
+ .footer-widget h4::after{
+    content: "";
+    background: white;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+ }
+ .footer-widget a{
+    color: white;
+ }
+ .latest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ .latest-news li{
+    margin-bottom: 3px;
+ }
+ .bottom-footer{
+    color: white;
+    background: #2c3e50;
+}
+.copyright{
+    margin-top: 10px;
+}
+.social-icons{
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    padding: 5px 15px;
+}
+.social-icons li a{
+    color: white;
+    font-size: 23px;
+}
