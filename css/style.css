@@ -147,3 +147,45 @@ section{
     content: "\f073";
     padding-right: 5px;
 }
+
+@media (max-width: 992px){
+    .news-post{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    section{
+        padding: 15px 0px;
+    }
+    .header-heading{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .header-menu{
+        text-align: center;
+    }
+    .banner-info{
+        padding-top: 0;
+    }
+    .banner-info h1{
+        font-size: 1.7rem;
+    }
+    .testimonial{
+        text-align: center;
+    }
+    .testimonial-1{
+        margin-bottom: 30px;
+    }
+    .service-box{
+        margin-bottom: 30px;
+    }
+    
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+  
+    .social-icons{
+        text-align: center;
+    }
+}
