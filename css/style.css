@@ -7,7 +7,7 @@ section{
 }
 
 .cards-title{
-    color: black;
+    color: #000;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -22,7 +22,7 @@ section{
 }
 .header{
     background-color: #f08080;
-    color: white;
+    color: #fff;
 }
 .header-heading{
     font-size: 2rem;
@@ -39,7 +39,7 @@ section{
 
 .header-menu-links{
     display: block;
-    color: white;
+    color: #fff;
     padding: 15px 10px;
 }
 .header-menu-links:hover{
@@ -61,7 +61,7 @@ section{
     margin: 0;
 }
 .banner-info p.lead{
-    color: white;
+    color: #fff;
     background-color: rgba(240, 128, 128);
 }
 
@@ -76,7 +76,7 @@ section{
 .testimonial{
     position: relative;
     background: url(../images/img-2.jpg) no-repeat 0 0;
-    color: white;
+    color: #fff;
     background-size: cover;
    }
    .testimonial img{
@@ -99,19 +99,19 @@ section{
   }
   .top-footer{
     background-color: #34495e;
-    color: white;
+    color: #fff;
     padding: 30px 0;
  }
  .footer-widget h4::after{
     content: "";
-    background: white;
+    background: #fff;
     display: block;
     width: 50px;
     height: 2px;
     margin: 5px 0;
  }
  .footer-widget a{
-    color: white;
+    color: #fff;
  }
  .latest-news{
     list-style: none;
@@ -122,7 +122,7 @@ section{
     margin-bottom: 3px;
  }
  .bottom-footer{
-    color: white;
+    color: #fff;
     background: #2c3e50;
 }
 .copyright{
@@ -130,17 +130,20 @@ section{
 }
 .social-icons{
     list-style: none;
-    color: white;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
-.social-icons li{
+.social-icons-links{
     display: inline-block;
     padding: 5px 15px;
 }
-.social-icons li a{
-    color: white;
+.social-icons-links a{
+    color: #fff;
     font-size: 23px;
+}
+.social-icons-links :hover{
+    color:#f08080;
 }
 .post-date::before{
     font-family: "Font Awesome 5 Free";
@@ -164,6 +167,9 @@ section{
     }
     .header-menu{
         text-align: center;
+    }
+    .header-menu-links{
+        padding: 15px 5px;
     }
     .banner-info{
         padding-top: 0;
